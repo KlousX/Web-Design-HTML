@@ -23,20 +23,28 @@
       margin-bottom: 20px;
     }
 
-    a {
-      text-decoration: none;
-      color: #00ffff;
+    .boton-naranja {
+      background-color: #ff6600;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
       font-size: 1.2em;
-      margin-top: 15px;
-      transition: color 0.3s ease;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
 
-    a:hover {
-      color: #ffffff;
+    .boton-naranja:hover {
+      background-color: #ff8533;
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     }
 
     img {
-      margin-top: 20px;
+      margin-top: 30px;
       width: 200px;
       max-width: 80%;
     }
@@ -44,7 +52,9 @@
 </head>
 <body>
   <h1>Soy de IES</h1>
-  <a href="https://www.ies21.edu.ar/" target="_blank">Visitar sitio oficial de IES</a>
+
+  <a href="https://www.ies21.edu.ar/" target="_blank" class="boton-naranja">Ir a IES21</a>
+
   <img src="https://www.ies21.edu.ar/img/logos_nuevos/LOGO_IES.png" alt="logo">
 </body>
 </html>
